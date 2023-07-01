@@ -1087,7 +1087,7 @@ opacity: 60%;
   line-height:40px;
   border-radius: 50%;
   font-size:16px;
-  color: #4070F4;
+  color: #828282;
   position:absolute;
   top:18px;
 }
@@ -1189,11 +1189,12 @@ opacity: 60%;
  align-items: center;
   margin: auto;
  padding: 0 0px;
- max-width: 100%;
- width: 100px;
+ max-width: 40%;
+ width: 200px;
  position: center;
- top: 0px;
- right: 0px;
+ top: -60px;
+ right: 10px;
+ left: 210px;
 
 }
 
