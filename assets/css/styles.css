@@ -20,7 +20,7 @@ html,body
     padding: 0px;
     overflow-x: hidden;
     /* background-color: #3b3941; */
-    background: #ffffff;
+    background: #000000;   /*This will change the certification and OVERALL background color*/
     /* background: white; */
     /* background-color: #221b36; */
 
@@ -785,9 +785,11 @@ opacity: 60%;
 
 
 /*certificate*/
-#certificate, .certi{
+#certificate,
+
+.certi{
   /* background-color: #3b3941; */
-  background: rgb(0, 0, 0);
+  background: rgb(132, 132, 132);
   
   /* background-color: #221b36; */
 }
@@ -798,22 +800,26 @@ opacity: 60%;
 {
   row-gap: 2rem;
   width: 20px;
+  height: 10px;
   display: flex;
+  color: #00fff2;
 }
 .certificate__img{
   box-shadow: 0 4px 25px rgba(255, 0, 0, 0.15);
   border-radius: .5rem;
   overflow: hidden;
   width: 60%;
-  height: 86%;
+  height: 100%;
   margin: auto;
 }
 .certificate__img img{
   transition: .5s;
   cursor: pointer;
+  height: 100px;
 }
 .certificate__img img:hover{
   transform: scale(1.1);
+  height: 50px;
 }
 /* ===== CONTACT =====*/
 .contact__container {
@@ -821,6 +827,7 @@ opacity: 60%;
   justify-content: center;
   align-items: center;
   height: 100%;
+  
 }
 
 .contact__form {
@@ -1003,7 +1010,7 @@ opacity: 60%;
 .Certifications{
   /* background-color: #3b3941; */
   background: #ff0000; /*UNKNOWN background color is changing here*/
-  height: 100vh;
+  height: 80vh;
   /* background-color: #221b36; */
 }
 
@@ -1401,7 +1408,7 @@ img{
 .cta {
   padding: 24px 32px;
   border: 1px solid #ffffff;
-  background-color: rgba(255, 0, 0, 0);
+  background-color: rgba(132, 132, 132, 0);
   -webkit-transition: box-shadow 350ms cubic-bezier(.165, .84, .44, 1), background-color 350ms cubic-bezier(.165, .84, .44, 1), -webkit-transform 350ms cubic-bezier(.165, .84, .44, 1);
   transition: box-shadow 350ms cubic-bezier(.165, .84, .44, 1), background-color 350ms cubic-bezier(.165, .84, .44, 1), -webkit-transform 350ms cubic-bezier(.165, .84, .44, 1);
   transition: box-shadow 350ms cubic-bezier(.165, .84, .44, 1), background-color 350ms cubic-bezier(.165, .84, .44, 1), transform 350ms cubic-bezier(.165, .84, .44, 1);
