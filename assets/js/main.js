@@ -98,7 +98,7 @@ function toggleMode(event) {
     }
     var backGroundDiv = document.querySelectorAll('.timeline .timeline-item-inner, .education__data');
     for (var i = 0; i < backGroundDiv.length; i++) {
-      backGroundDiv[i].style.backgroundColor = "rgb(236, 230, 230)";
+      backGroundDiv[i].style.backgroundColor = "rgb(132, 132, 132)";
     }
     var textColor = document.querySelectorAll('.timeline .timeline-item-inner h3, .timeline .timeline-item-inner h4, .timeline .timeline-item-inner p');
     for (var i = 0; i < textColor.length; i++) {
@@ -110,11 +110,11 @@ function toggleMode(event) {
     iElement.className = "fas fa-sun";
     var elementsToChange = document.querySelectorAll('.home, .homebg, .about, .skills, body');
     for (var i = 0; i < elementsToChange.length; i++) {
-      elementsToChange[i].style.background = "#221b36";
+      elementsToChange[i].style.background = "black"; /*background color is changing from here*/
     }
     var elementsToChangeColor = document.querySelectorAll('.experience, .education, .achievements, .contact, .project');
     for (var i = 0; i < elementsToChangeColor.length; i++) {
-      elementsToChangeColor[i].style.background = "#221b36";
+      elementsToChangeColor[i].style.background = "black"; /* middle background color is changing from here*/
       elementsToChangeColor[i].style.color = "white";
     }
     var elementsTextcolorChange = document.querySelectorAll('.home__title1, .section-title:not(.Certifications .section-title),.home__title, .about__subtitle, .home__title-color2, .about__text, .heading_55px, .cta');
@@ -123,11 +123,11 @@ function toggleMode(event) {
     }
     var modeSwitcherChange = document.querySelectorAll('#mode-switcher, #mode-switcher i');
     for (var i = 0; i < modeSwitcherChange.length; i++) {
-      modeSwitcherChange[i].style.backgroundColor = "blue";
+      modeSwitcherChange[i].style.backgroundColor = "black";
     }
     var backGroundDiv = document.querySelectorAll('.timeline .timeline-item-inner, .education__data');
     for (var i = 0; i < backGroundDiv.length; i++) {
-      backGroundDiv[i].style.backgroundColor = "#221b50";
+      backGroundDiv[i].style.backgroundColor = "rgb(132, 132, 132)"; /* extra curricular pad color is changing from here*/
     }
     var textColor = document.querySelectorAll('.timeline .timeline-item-inner h3, .timeline .timeline-item-inner h4, .timeline .timeline-item-inner p');
     for (var i = 0; i < textColor.length; i++) {
@@ -144,11 +144,11 @@ for (var i = 0; i < footerIcons.length; i++) {
 }
 
 function myfun(event){
-  event.target.style.color = "blue";
+  event.target.style.color = "black"; /* bottom social media icon color is changing from here*/
 }
 
 function myfun2(event){
-  event.target.style.color = "white";
+  event.target.style.color = "white"; /* bottom social media icon color is changing from here*/
 }
 
 
@@ -181,7 +181,7 @@ window.onload = function() {
               console.log(error)
               var message = document.getElementById("msg");
               message.innerHTML = "Your mail was not sent successfully!";
-              message.style.background = "red";
+              message.style.background = "rgb(132, 132, 132)";
               message.style.display = "inline-block";
               setTimeout(function() {
               msg.style.display = "none";
