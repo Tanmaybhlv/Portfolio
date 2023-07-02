@@ -63,9 +63,9 @@ sr.reveal(".skills__img", { delay: 600 });
 var typed = new Typed(".typing", {
   strings: [
     "Data Engineer",
-    "Google Cloud Developer",
-    "Python Developer",
-    "Tech Enthusiast",
+    "Data Analyst",
+    "BI Developer",
+    "An Aspiring Data Scientist"
   ],
   typeSpeed: 100,
   backSpeed: 60,
@@ -119,7 +119,7 @@ function toggleMode(event) {
     }
     var elementsTextcolorChange = document.querySelectorAll('.home__title1, .section-title:not(.Certifications .section-title),.home__title, .about__subtitle, .home__title-color2, .about__text, .heading_55px, .cta');
     for (var i = 0; i < elementsTextcolorChange.length; i++) {
-      elementsTextcolorChange[i].style.color = "white";
+      elementsTextcolorChange[i].style.color = "white"; /* HEADING FONTS color is changing from here*/
     }
     var modeSwitcherChange = document.querySelectorAll('#mode-switcher, #mode-switcher i');
     for (var i = 0; i < modeSwitcherChange.length; i++) {
@@ -131,7 +131,7 @@ function toggleMode(event) {
     }
     var textColor = document.querySelectorAll('.timeline .timeline-item-inner h3, .timeline .timeline-item-inner h4, .timeline .timeline-item-inner p');
     for (var i = 0; i < textColor.length; i++) {
-      textColor[i].style.color = "white";
+      textColor[i].style.color = "white"; /* extra curricular fonts color is changing from here*/
     }
   }
 }
