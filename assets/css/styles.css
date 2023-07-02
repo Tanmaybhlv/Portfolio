@@ -425,24 +425,23 @@ opacity: 60%;
   .nav__menu{
     position: fixed;
     top: var(--header-height);
-    width: 80%;
+    right: -100%;
+    width: 50%;
     height: 100%;
     padding: 2rem;
     background-color: #000000;
     transition: .5s;
-    font-family:'Encode Sans';
   }
 }
 .nav__item{
   margin-bottom: var(--mb-4);
-  font-family:'Encode Sans';
 }
 /* .nav__item:hover{
   background-color: #7a8001;
 } */
 .nav__link{
   position: relative;
-  color: rgb(132, 132, 132);
+  color: #898989;
 }
 .nav__link:hover{
   position: relative;
@@ -458,14 +457,12 @@ opacity: 60%;
   background-color: var(--first-color);
 }
 .nav__logo{
-  margin-left: 0;
   color: var(--second-color);
 }
 .nav__toggle{
   color: var(--second-color);
   font-size: 1.5rem;
   cursor: pointer;
-  font-family: 'Encode Sans';
 }
 
 /*Active menu*/
