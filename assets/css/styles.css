@@ -767,21 +767,27 @@ opacity: 60%;
 .work__container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 2rem;
+  grid-gap: 2rem;
 }
 
 .work__img {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   border-radius: 0.5rem;
   overflow: hidden;
   box-shadow: 0 4px 25px rgba(14, 36, 49, 0.15);
 }
+
 .work__img img {
   cursor: pointer;
-  transition: transform .5s;
+  transition: transform 0.5s;
 }
+
 .work__img img:hover {
   transform: scale(1.1);
 }
+
 .work__img .text {
   display: block;
   position: relative;
@@ -793,9 +799,11 @@ opacity: 60%;
   color: #000000;
   background-color: #ffffff;
 }
+
 .work__img .text:hover {
   background-color: rgb(132, 132, 132);
 }
+
 
 
 
